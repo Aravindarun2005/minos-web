@@ -1,0 +1,7 @@
+minos-java/build/
+minos-java/test-build/
+backend/build/
+backend/test-build/
+backend/minos-data/
+backend/csp-storage/
+benchmark-results/
