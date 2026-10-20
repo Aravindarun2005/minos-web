@@ -1,0 +1,41 @@
+{"time":"2026-10-16T13:03:38.883804600Z","event":"SETUP","userId":null,"detail":"Algorithm 1 executed; |U| = 5, 1359 ms"}
+{"time":"2026-10-16T13:04:01.213257Z","event":"REGISTER","userId":"U001","detail":"Algorithm 2 (pk sent to CSP, R.add) + Algorithm 3 KeyGen (173 ms)"}
+{"time":"2026-10-16T13:04:22.259497900Z","event":"REGISTER","userId":"U002","detail":"Algorithm 2 (pk sent to CSP, R.add) + Algorithm 3 KeyGen (143 ms)"}
+{"time":"2026-10-16T13:04:37.960717Z","event":"REGISTER","userId":"U003","detail":"Algorithm 2 (pk sent to CSP, R.add) + Algorithm 3 KeyGen (129 ms)"}
+{"time":"2026-10-16T13:04:57.157322600Z","event":"LOGIN","userId":"U001","detail":"password verified (PBKDF2)"}
+{"time":"2026-10-16T13:05:41.519404700Z","event":"UPLOAD","userId":"U001","detail":"document D-8106de1a54ee4b1bbbb9: Encrypt (Algorithm 4, 102 ms, |L| = 2) + AES-GCM body; policy Manager"}
+{"time":"2026-10-16T13:06:01.857340800Z","event":"LOGIN","userId":"U002","detail":"password verified (PBKDF2)"}
+{"time":"2026-10-16T13:06:11.721329300Z","event":"ACCESS_REQUESTED","userId":"U002","detail":"access request AR-4b12b5ddd702 for D-8106de1a54ee4b1bbbb9"}
+{"time":"2026-10-16T13:06:11.746165600Z","event":"SEARCH","userId":"U002","detail":"Authorize+TrapGen for 0 document(s), 1 denied, 0 match(es), 339 ms"}
+{"time":"2026-10-16T13:06:20.925421600Z","event":"ACCESS_APPROVED","userId":"U001","detail":"U002 for D-8106de1a54ee4b1bbbb9 [VIEW]"}
+{"time":"2026-10-16T13:07:10.140193400Z","event":"UPLOAD","userId":"U001","detail":"document D-3e9840cb381d9b4e38f3: Encrypt (Algorithm 4, 114 ms, |L| = 2) + AES-GCM body; policy Manager"}
+{"time":"2026-10-16T13:07:18.617082600Z","event":"ACCESS_REQUESTED","userId":"U002","detail":"access request AR-d0e5ebc78b92 for D-3e9840cb381d9b4e38f3"}
+{"time":"2026-10-16T13:07:18.618079Z","event":"SEARCH","userId":"U002","detail":"Authorize+TrapGen for 1 document(s), 1 denied, 0 match(es), 683 ms"}
+{"time":"2026-10-16T13:07:27.678005700Z","event":"ACCESS_APPROVED","userId":"U001","detail":"U002 for D-3e9840cb381d9b4e38f3 [VIEW, DOWNLOAD]"}
+{"time":"2026-10-16T13:07:42.883047300Z","event":"SEARCH","userId":"U002","detail":"Authorize+TrapGen for 2 document(s), 0 denied, 1 match(es), 794 ms"}
+{"time":"2026-10-16T13:07:51.725983500Z","event":"DOWNLOAD","userId":"U002","detail":"document D-3e9840cb381d9b4e38f3 version 1 decrypted after authorized search"}
+{"time":"2026-10-16T13:08:23.269001500Z","event":"LOGIN","userId":"U003","detail":"password verified (PBKDF2)"}
+{"time":"2026-10-16T13:08:28.884406400Z","event":"ACCESS_REQUESTED","userId":"U003","detail":"access request AR-97f11244a0f1 for D-8106de1a54ee4b1bbbb9"}
+{"time":"2026-10-16T13:08:29.006749100Z","event":"ACCESS_REQUESTED","userId":"U003","detail":"access request AR-2ee7eeec4325 for D-3e9840cb381d9b4e38f3"}
+{"time":"2026-10-16T13:08:29.007752200Z","event":"SEARCH","userId":"U003","detail":"Authorize+TrapGen for 0 document(s), 2 denied, 0 match(es), 284 ms"}
+{"time":"2026-10-16T13:08:40.499638800Z","event":"ACCESS_APPROVED","userId":"U001","detail":"U003 for D-3e9840cb381d9b4e38f3 [VIEW, DOWNLOAD]"}
+{"time":"2026-10-16T13:08:52.865444400Z","event":"SEARCH","userId":"U003","detail":"Authorize+TrapGen for 1 document(s), 1 denied, 1 match(es), 548 ms"}
+{"time":"2026-10-16T13:08:55.149549700Z","event":"DOWNLOAD","userId":"U003","detail":"document D-3e9840cb381d9b4e38f3 version 1 decrypted after authorized search"}
+{"time":"2026-10-16T13:09:17.421326400Z","event":"LEAK_CHECK","userId":"U001","detail":"EXACT - copy E976312C of U002"}
+{"time":"2026-10-16T13:09:47.685885600Z","event":"LEAK_CHECK","userId":"U001","detail":"EXACT - copy EF01736C of U003"}
+{"time":"2026-10-16T13:11:31.240254Z","event":"LEAK_CHECK","userId":"U001","detail":"NOT_FOUND - NOT_FOUND"}
+{"time":"2026-10-16T13:12:41.631606600Z","event":"LEAK_CHECK","userId":"U001","detail":"WORDING_UNIQUE - copy EF01736C of U003"}
+{"time":"2026-10-16T13:17:01.536323500Z","event":"ACCESS_APPROVED","userId":"U001","detail":"U003 for D-8106de1a54ee4b1bbbb9 [VIEW]"}
+{"time":"2026-10-16T13:20:57.656942500Z","event":"SEARCH","userId":"U003","detail":"Authorize+TrapGen for 2 document(s), 0 denied, 1 match(es), 717 ms"}
+{"time":"2026-10-16T13:21:49.407946500Z","event":"UPLOAD","userId":"U001","detail":"document D-623e40be0d551cde04f2: Encrypt (Algorithm 4, 102 ms, |L| = 2) + AES-GCM body; policy Manager"}
+{"time":"2026-10-16T13:21:56.597353300Z","event":"ACCESS_REQUESTED","userId":"U003","detail":"access request AR-8ad1bad5fbdc for D-623e40be0d551cde04f2"}
+{"time":"2026-10-16T13:21:56.598370500Z","event":"SEARCH","userId":"U003","detail":"Authorize+TrapGen for 2 document(s), 1 denied, 0 match(es), 747 ms"}
+{"time":"2026-10-16T13:23:04.653815Z","event":"UPLOAD","userId":"U001","detail":"document D-f9f867a5bb7b0353721d: Encrypt (Algorithm 4, 81 ms, |L| = 2) + AES-GCM body; policy Manager"}
+{"time":"2026-10-16T13:23:15.245337Z","event":"ACCESS_REQUESTED","userId":"U003","detail":"access request AR-b18c911e4549 for D-f9f867a5bb7b0353721d"}
+{"time":"2026-10-16T13:23:15.246339700Z","event":"SEARCH","userId":"U003","detail":"Authorize+TrapGen for 2 document(s), 2 denied, 0 match(es), 1187 ms"}
+{"time":"2026-10-16T13:23:28.629512700Z","event":"ACCESS_APPROVED","userId":"U001","detail":"U003 for D-f9f867a5bb7b0353721d [VIEW, DOWNLOAD]"}
+{"time":"2026-10-16T13:23:30.438622100Z","event":"ACCESS_APPROVED","userId":"U001","detail":"U003 for D-623e40be0d551cde04f2 [VIEW]"}
+{"time":"2026-10-16T13:23:44.732290500Z","event":"SEARCH","userId":"U003","detail":"Authorize+TrapGen for 4 document(s), 0 denied, 1 match(es), 1264 ms"}
+{"time":"2026-10-16T13:23:52.000042200Z","event":"DOWNLOAD","userId":"U003","detail":"document D-f9f867a5bb7b0353721d version 1 decrypted after authorized search"}
+{"time":"2026-10-16T13:38:41.751148200Z","event":"DETECT","userId":"U001","detail":"alert A-8c79d2635ed9: Algorithm 9 -> U003"}
+{"time":"2026-10-16T13:40:56.541734800Z","event":"LOGIN","userId":"U001","detail":"password verified (PBKDF2)"}
